@@ -1,0 +1,33 @@
+.botonClick {
+    width: 60px;
+    height: 70px;
+    margin: 8px;
+    border-radius: 10px;
+    border-color: 6px rgb(126, 126, 125);
+    background-color: rgb(15, 15, 15);
+    color: rgb(245, 241, 241);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.8em;
+    cursor: pointer; 
+}
+.botonClick{}
+
+.botonClick:hover{
+    background-color:rgb(61, 61, 59); ;
+    color: rgb(31, 27, 19)
+}
+
+.boton-box{
+    width: 80px;
+    height: 35px;
+    flex: 1 1;
+    background-color: rgb(195, 167, 115);
+    border-color: 8px solid rgb(63, 51, 35);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
